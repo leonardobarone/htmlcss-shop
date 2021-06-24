@@ -1,0 +1,26 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 50%;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+img
+{
+    width: 100%;
+    border: 3px solid green;
+}
+
+.product
+{ 
+    display: inline-block;
+    width: calc(100% / 3);
+    border: 3px solid blue;
+}
