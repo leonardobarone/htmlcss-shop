@@ -3,11 +3,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container
 {
-    max-width: 50%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -31,6 +32,52 @@
     background-color: white ;
     font-size: 20px;
     padding: 5px 10px;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 5px;
+}
+
+.discount
+{
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    bottom: 20px;
+    left: 20px;
+    padding: 2px 6px;   
+}
+
+.eco
+{
+    position: absolute;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    bottom: 20px;
+    left: 85px;
+    padding: 2px 6px;  
+}
+
+.description
+{
+    position: absolute;
+}
+
+p strong
+{
+    color: red;
+}
+
+p > span
+{
+    text-decoration: line-through;
+}
+
+p strong, p > span
+{
+    font-size: small;
 }
