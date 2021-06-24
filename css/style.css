@@ -81,3 +81,8 @@ p strong, p > span
 {
     font-size: small;
 }
+
+.description p
+{
+    font-size: small;
+}
