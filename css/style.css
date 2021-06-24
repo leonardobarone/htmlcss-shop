@@ -9,18 +9,16 @@
 {
     max-width: 50%;
     margin: 0 auto;
-    border: 3px solid black;
-}
-
-img
-{
-    width: 100%;
-    border: 3px solid green;
 }
 
 .product
 { 
     display: inline-block;
     width: calc(100% / 3);
-    border: 3px solid blue;
+    padding: 5px;
+}
+
+.product img
+{
+    width: 100%;
 }
